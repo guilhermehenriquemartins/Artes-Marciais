@@ -16,25 +16,64 @@
       <span id="burguer" class="material-symbols-outlined" onclick="apareceMenu()">menu</span>
       <nav id="items">
         <ul>
-          <li><a href="#">Modalidades</a>
+          <li><a href="#modalidades">Modalidades</a>
           <li><a href="#">Contato</a>
         </ul>
       </nav>
     </div>
   </header>
   <main>
-    <div class="delimitador">
+    <div class="delimitador" id="modalidades">
       <iframe src="" frameborder="0" scolling="no" name="frame" srcdoc="<h2 style='color: white; text-align: center; font-family: Arial; text-transform: uppercase; font-size: 1em; padding: 60px 0px;'>Selecione uma das modalidades abaixo para saber mais!</h2>">
         <p>*Desculpe! Infelizmente o conteúdo não é compatível na tela em que você está visualizando</p>
       </iframe>
-      <p>
-
-      </p>
+      <h2>modalidades:</h2>
       <ul>
-        <li><a href="kravmaga.html" target="frame"><img src="imagens/krav maga.png" alt="Krav-Maga"></a>
-        <li><a href="#"><img src="imagens/kung fu.jpg" alt="Kung-Fu"></a>
-        <li><a href="#"><img src="imagens/muay thai.png" alt="Muay-Thai"></a>
+        <li onclick="clickKrav()">
+          <a href="kravmaga.html" target="frame">
+            <div>
+              <img class="preto" src="imagens/krav maga.png" alt="Krav Maga Logo">
+              <img class="branco" src="imagens/krav maga branco.png" alt="Krav Maga Branco">
+            </div>
+            <div>
+              <h2>Krav Maga</h2>
+            </div>
+          </a>
+        <li onclick="clickKung()">
+          <a href="kungfu.html" target="frame">
+            <div>
+              <img class="preto" src="imagens/kung fu.png" alt="Kung Fu Logo">
+              <img class="branco" src="imagens/kung fu branco.png" alt="Kung Fu Branco">
+            </div>
+            <div>
+              <h2>Kung Fu</h2>
+            </div>
+          </a>
+        <li onclick="clickMuay()">
+          <a href="muaythai.html" target="frame">
+            <div>
+              <img class="preto" src="imagens/muay thai.png" alt="Muay Thai Logo">
+              <img class="branco" src="imagens/muay thai branco.png" alt="Muay Thai Branco">
+            </div>
+            <div>
+              <h2>Muay Thai</h2>
+            </div>
+          </a>
       </ul>
+      <hr>
+      <div class="textoluta" id="textokravmaga">
+        <p>Krav-Maga, que significa “combate contato”, é uma disciplina combate corpo a corpo, que foi desenvolvido no 19 º século por imigrantes judeus para (que era então) Palestina. A disciplina está globalmente associada ao Israel moderno, conforme refletido na mídia e em livros publicados de forma privada. Nos últimos anos, o Krav-Maga tem crescido em popularidade, tendência que pode ser atribuída ao aumento global das ações terroristas contra civis, como o tiroteio no Charlie Hebdo em 2015, e à reputação do Krav -Maga como o método oficial de combate corpo a corpo das Forças de Defesa de Israel (IDF). Apesar desse crescimento em popularidade, poucas pesquisas acadêmicas foram realizadas para examinar as origens históricas e a evolução do Krav-Maga, nem como elas estão ligadas à herança cultural do povo judeu. Ambos os projetos intelectuais são importantes para avaliar o caso da inclusão do Krav-Maga no âmbito do patrimônio cultural imaterial de Israel. É interessante notar que alguns trabalhos recentes foi realizado sobre a ligação entre o surgimento de Krav-Maga e as relações violentas entre residentes judeus e árabes da Palestina no final dos anos 19 º século. No entanto, este trabalho não examina as dimensões culturais e ideológicas do desenvolvimento do Krav-Maga.</p>
+      </div>
+      <div class="textoluta" id="textokungfu">
+        <p>Louva-a-deus é o nome dado a dois estilos distintos de artes marciais chinesas; um deles é característico “do Sul” e o outro “do Norte” da China.
+
+          O estilo louva-a-deus do norte foi criado por Wang Lang na província de Shandong por volta de 350-400 anos atrás. Wang Lang se inspirou na agressividade e eficácia do inseto ao combater uma cigarra e no jogo de pés do macaco.
+          
+          Algumas características do estilo louva-a-deus do norte são: grande velocidade, ataques incessantes, e movimentação complexa dos pés. O estilo também é muito conhecido pelo uso da “garra do louva-a-deus” (um gancho feito com os dedos da mão) . É um sistema completo que emprega chutes, socos, agarramentos, jogadas, armas, estratégia, metodologia de treinamento e exercícios internos de Qi Gong.</p>
+      </div>
+      <div class="textoluta" id="textomuaythai">
+        <p>Muay thai (lit. arte marcial tailandesa) é uma arte marcial originária da Tailândia, onde é considerado desporto nacional.Esta disciplina física e mental que inclui golpes de combate em pé, é conhecida como “a arte das oito armas”, pois caracteriza-se pelo uso combinado de punhos, cotovelos, joelhos, canelas e pés, estando associada a uma boa preparação física que a torna uma luta de contato total bastante eficiente.</p>
+      </div>
     </div>
   </main>
   <footer>

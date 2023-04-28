@@ -5,3 +5,21 @@ function apareceMenu() {
     items.style.display = 'block'
   }
 }
+
+function clickKrav() {
+  textokravmaga.style.display = 'block'
+  textokungfu.style.display = 'none'
+  textomuaythai.style.display = 'none'
+}
+
+function clickKung() {
+  textokravmaga.style.display = 'none'
+  textomuaythai.style.display = 'none'
+  textokungfu.style.display = 'block'
+}
+
+function clickMuay() {
+  textomuaythai.style.display = 'block'
+  textokravmaga.style.display = 'none'
+  textokungfu.style.display = 'none'
+}

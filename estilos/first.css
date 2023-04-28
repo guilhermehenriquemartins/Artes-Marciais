@@ -11,6 +11,11 @@ html, body {
   width: 100vw;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
 .delimitador {
   width: 90vw;
   margin: auto;
@@ -84,16 +89,88 @@ main iframe {
   background-color: black;
 }
 
+.delimitador > h2 {
+  margin: 20px 0px;
+  text-transform: uppercase;
+}
+
 main ul {
+  width: 70%;
   list-style-type: none;
-  margin-top: 10px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  padding: 15px 0px;
 }
 
 main li img {
   height: 30px;
 }
 
+.branco {
+  display: none;
+  margin: auto;
+  height: 25px;
+  padding-top: 5px;
+}
+
+main li h2 {
+  font-size: 1em;
+}
+
 main li {
-  display: inline;
   margin-right: 5px;
+  width: 33%;
+}
+
+main li a {
+  text-decoration: none;
+  color: black;
+}
+
+main li:hover {
+  background-color: black;
+  transition-duration: .3s;
+  border-radius: 50px;
+}
+
+main li:hover h2 {
+  color: white;
+  font-size: .8em;
+}
+
+main li:hover .preto {
+  display: none;
+}
+
+main li:hover .branco {
+  display: block;
+}
+
+#modalidades > hr {
+  margin: 20px auto 0px auto;
+  width: 80%;
+}
+
+.textoluta {
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: 1em;
+  text-indent: 15px;
+  width: 80%;
+  margin: auto;
+  color: black;
+  padding: 20px 0px;
+}
+
+#textokravmaga {
+  display: none;
+}
+
+#textokungfu {
+  display: none;
+}
+
+#textomuaythai {
+  display: none;
 }
