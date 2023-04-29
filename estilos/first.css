@@ -6,6 +6,18 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'marcial';
+  src: url('../fonts/OptimusPrinceps.ttf') format('truetype');
+}
+
+:root {
+  --fonteprincipal: 'marcial', sans-serif;
+  --fontesecundaria: 'Rubik', sans-serif;
+}
+
 html, body {
   height: 100vh;
   width: 100vw;
@@ -28,7 +40,8 @@ header {
 }
 
 header h1 {
-  padding: 15px 0px;
+  padding: 20px 0px;
+  font-family: var(--fonteprincipal);
 }
 
 #burguer {
@@ -92,6 +105,7 @@ main iframe {
 .delimitador > h2 {
   margin: 20px 0px;
   text-transform: uppercase;
+  font: normal 700 1.8em var(--fontesecundaria);
 }
 
 #mod {
@@ -116,6 +130,8 @@ main iframe {
 
 #mod li h2 {
   font-size: 1em;
+  font-family: var(--fontesecundaria);
+  font-weight: 500;
 }
 
 #mod li {
@@ -136,7 +152,7 @@ main iframe {
 
 #mod li:hover h2 {
   color: white;
-  font-size: .8em;
+  font-size: .7em;
 }
 
 #mod li:hover .preto {
@@ -189,13 +205,17 @@ main iframe {
 }
 
 #contato > h2 {
-  font-size: 2em;
+  font: normal 700 1.8em var(--fontesecundaria);
 }
 
 #formulario {
   width: 80%;
   height: 450px;
   margin: auto;
+}
+
+#formulario > h2 {
+  font: normal 700 1.3em var(--fontesecundaria);
 }
 
 form {
@@ -223,6 +243,7 @@ input[type='submit'] {
   border: none;
   cursor: pointer;
   height: 40px;
+  font: normal 500 .9em var(--fontesecundaria);
 }
 
 input[type='submit']:hover {
@@ -241,6 +262,7 @@ input[type='reset'] {
   border: none;
   cursor: pointer;
   height: 40px;
+  font: normal 500 .9em var(--fontesecundaria);
 }
 
 input[type='reset']:hover {
@@ -261,6 +283,7 @@ input[type='reset']:active {
 
 #redes-sociais > h2 {
   text-transform: uppercase;
+  font: normal 700 1.3em var(--fontesecundaria);
 }
 
 #redes-sociais ul {
@@ -285,6 +308,7 @@ input[type='reset']:active {
 #endereco > h2 {
   text-transform: uppercase;
   margin-bottom: 10px;
+  font: normal 700 1.3em var(--fontesecundaria);
 }
 
 footer {
