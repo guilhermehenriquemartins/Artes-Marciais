@@ -23,3 +23,11 @@ function clickMuay() {
   textokravmaga.style.display = 'none'
   textokungfu.style.display = 'none'
 }
+
+function mudouTela() {
+  if (window.innerWidth >= 768) {
+    items.style.display = 'block'
+  } else {
+    items.style.display = 'none'
+  }
+}

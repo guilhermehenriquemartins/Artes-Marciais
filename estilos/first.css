@@ -102,7 +102,7 @@ main iframe {
   background-color: black;
 }
 
-.delimitador > h2 {
+#div-mod > h2 {
   margin: 20px 0px;
   text-transform: uppercase;
   font: normal 700 1.8em var(--fontesecundaria);
@@ -316,4 +316,8 @@ footer {
   color: white;
   text-align: center;
   padding: 15px 0px;
+}
+
+#telas-grandes {
+  display: none;
 }

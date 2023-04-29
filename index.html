@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="shortcut icon" href="imagens/kimono.png" type="image/x-icon">
   <link rel="stylesheet" href="estilos/first.css">
+  <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
-<body>
+<body onresize="mudouTela()">
   <header>
     <div class="delimitador">
       <h1>MarcialArts</h1>
@@ -24,42 +25,47 @@
   </header>
   <main>
     <div class="delimitador" id="modalidades">
-      <iframe src="" frameborder="0" scolling="no" name="frame" srcdoc="<h2 style='color: white; text-align: center; font-family: Arial; text-transform: uppercase; font-size: 1em; padding: 60px 0px;'>Selecione uma das modalidades abaixo para saber mais!</h2>">
+      <iframe src="" frameborder="0" scolling="no" name="frame" id="celular" srcdoc="<h2 style='color: white; text-align: center; font-family: Arial; text-transform: uppercase; font-size: 1em; padding: 60px 0px;'>Selecione uma das modalidades abaixo para saber mais!</h2>">
         <p>*Desculpe! Infelizmente o conteúdo não é compatível na tela em que você está visualizando</p>
       </iframe>
-      <h2>modalidades:</h2>
-      <ul id="mod">
-        <li onclick="clickKrav()">
-          <a href="kravmaga.html" target="frame">
-            <div>
-              <img class="preto" src="imagens/krav maga.png" alt="Krav Maga Logo">
-              <img class="branco" src="imagens/krav maga branco.png" alt="Krav Maga Branco">
-            </div>
-            <div>
-              <h2>Krav Maga</h2>
-            </div>
-          </a>
-        <li onclick="clickKung()">
-          <a href="kungfu.html" target="frame">
-            <div>
-              <img class="preto" src="imagens/kung fu.png" alt="Kung Fu Logo">
-              <img class="branco" src="imagens/kung fu branco.png" alt="Kung Fu Branco">
-            </div>
-            <div>
-              <h2>Kung Fu</h2>
-            </div>
-          </a>
-        <li onclick="clickMuay()">
-          <a href="muaythai.html" target="frame">
-            <div>
-              <img class="preto" src="imagens/muay thai.png" alt="Muay Thai Logo">
-              <img class="branco" src="imagens/muay thai branco.png" alt="Muay Thai Branco">
-            </div>
-            <div>
-              <h2>Muay Thai</h2>
-            </div>
-          </a>
-      </ul>
+      <iframe src="" frameborder="0" scolling="no" name="frame" id="telas-grandes" srcdoc="<h2 style='color: white; text-align: center; font-family: Arial; text-transform: uppercase; font-size: 1em; padding: 60px 0px;'>Selecione uma das modalidades ao lado para saber mais!</h2>">
+        <p>*Desculpe! Infelizmente o conteúdo não é compatível na tela em que você está visualizando</p>
+      </iframe>
+      <div id="div-mod">
+        <h2>modalidades:</h2>
+        <ul id="mod">
+          <li onclick="clickKrav()">
+            <a href="kravmaga.html" target="frame">
+              <div>
+                <img class="preto" src="imagens/krav maga.png" alt="Krav Maga Logo">
+                <img class="branco" src="imagens/krav maga branco.png" alt="Krav Maga Branco">
+              </div>
+              <div>
+                <h2>Krav Maga</h2>
+              </div>
+            </a>
+          <li onclick="clickKung()">
+            <a href="kungfu.html" target="frame">
+              <div>
+                <img class="preto" src="imagens/kung fu.png" alt="Kung Fu Logo">
+                <img class="branco" src="imagens/kung fu branco.png" alt="Kung Fu Branco">
+              </div>
+              <div>
+                <h2>Kung Fu</h2>
+              </div>
+            </a>
+          <li onclick="clickMuay()">
+            <a href="muaythai.html" target="frame">
+              <div>
+                <img class="preto" src="imagens/muay thai.png" alt="Muay Thai Logo">
+                <img class="branco" src="imagens/muay thai branco.png" alt="Muay Thai Branco">
+              </div>
+              <div>
+                <h2>Muay Thai</h2>
+              </div>
+            </a>
+        </ul>
+      </div>
       <hr>
       <div class="textoluta" id="textokravmaga">
         <p>Krav-Maga, que significa “combate contato”, é uma disciplina combate corpo a corpo, que foi desenvolvido no 19 º século por imigrantes judeus para (que era então) Palestina. A disciplina está globalmente associada ao Israel moderno, conforme refletido na mídia e em livros publicados de forma privada. Nos últimos anos, o Krav-Maga tem crescido em popularidade, tendência que pode ser atribuída ao aumento global das ações terroristas contra civis, como o tiroteio no Charlie Hebdo em 2015, e à reputação do Krav -Maga como o método oficial de combate corpo a corpo das Forças de Defesa de Israel (IDF). Apesar desse crescimento em popularidade, poucas pesquisas acadêmicas foram realizadas para examinar as origens históricas e a evolução do Krav-Maga, nem como elas estão ligadas à herança cultural do povo judeu. Ambos os projetos intelectuais são importantes para avaliar o caso da inclusão do Krav-Maga no âmbito do patrimônio cultural imaterial de Israel. É interessante notar que alguns trabalhos recentes foi realizado sobre a ligação entre o surgimento de Krav-Maga e as relações violentas entre residentes judeus e árabes da Palestina no final dos anos 19 º século. No entanto, este trabalho não examina as dimensões culturais e ideológicas do desenvolvimento do Krav-Maga.</p>
