@@ -17,7 +17,7 @@
       <nav id="items">
         <ul>
           <li><a href="#modalidades">Modalidades</a>
-          <li><a href="#">Contato</a>
+          <li><a href="#contato">Contato</a>
         </ul>
       </nav>
     </div>
@@ -28,7 +28,7 @@
         <p>*Desculpe! Infelizmente o conteúdo não é compatível na tela em que você está visualizando</p>
       </iframe>
       <h2>modalidades:</h2>
-      <ul>
+      <ul id="mod">
         <li onclick="clickKrav()">
           <a href="kravmaga.html" target="frame">
             <div>
@@ -75,10 +75,46 @@
         <p>Muay thai (lit. arte marcial tailandesa) é uma arte marcial originária da Tailândia, onde é considerado desporto nacional.Esta disciplina física e mental que inclui golpes de combate em pé, é conhecida como “a arte das oito armas”, pois caracteriza-se pelo uso combinado de punhos, cotovelos, joelhos, canelas e pés, estando associada a uma boa preparação física que a torna uma luta de contato total bastante eficiente.</p>
       </div>
     </div>
+    <section id="contato">
+      <h2>contato</h2>
+      <div id="formulario">
+        <h2>fale conosco</h2>
+        <form action="login.php" method="post" autocomplete="on">
+          <p>
+            <input type="text" name="nome" id="inome" placeholder="Seu nome">
+          </p>
+          <p>
+            <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+          </p>
+          <p>
+            <input type="tel" name="tel" id="itel" placeholder="Seu telefone">
+          </p>
+          <p>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Mensagem"></textarea>
+          </p>
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Limpar">
+        </form>
+      </div>
+      <div id="saiba-mais">
+        <div id="redes-sociais">
+          <h2>nos acompanhe</h2>
+          <ul>
+            <li><a href="#"><img src="imagens/instagram.png" alt="Instagram-Logo"></a>
+            <li><a href="#"><img src="imagens/facebook.png" alt="Facebook-Logo"></a>
+            <li><a href="#"><img src="imagens/youtube.png" alt="YouTube-Logo"></a>
+          </ul>
+        </div>
+        <div id="endereco">
+          <h2>venha até nós</h2>
+          <p>Rua JavaScript n° 124, Vila HTML - São Paulo - SP</p>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="delimitador">
-
+      <p>&copy;  MarcialArts - Todos os direitos reservados - 2023</p>
     </div>
   </footer>
   <script src="programacao.js"></script>
