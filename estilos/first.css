@@ -322,6 +322,28 @@ footer {
   display: none;
 }
 
+#telas-grandes2 {
+  display: none;
+}
+
 #div-mod2 {
   display: none;
+}
+
+#div-mod3 {
+  display: none;
+}
+
+#grande {
+  display: none;
+}
+
+#pequeno {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 2px 5px;
+  border-radius: 100px;
+  background-color: blue;
 }

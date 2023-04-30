@@ -31,6 +31,9 @@
       <iframe src="" frameborder="0" scolling="no" name="sframe" id="telas-grandes" srcdoc="<h2 style='color: white; text-align: center; font-family: Arial; text-transform: uppercase; font-size: 1em; padding: 60px 0px;'>Selecione uma das modalidades ao lado para saber mais!</h2>">
         <p>*Desculpe! Infelizmente o conteúdo não é compatível na tela em que você está visualizando</p>
       </iframe>
+      <iframe src="" frameborder="0" scolling="no" name="tframe" id="telas-grandes2" srcdoc="<h2 style='color: white; text-align: center; font-family: Arial; text-transform: uppercase; font-size: 1em; padding: 130px 0px;'>Selecione uma das modalidades ao lado para saber mais!</h2>">
+        <p>*Desculpe! Infelizmente o conteúdo não é compatível na tela em que você está visualizando</p>
+      </iframe>
       <div id="div-mod">
         <h2>modalidades:</h2>
         <ul id="mod">
@@ -101,6 +104,41 @@
             </a>
         </ul>
       </div>
+      <div id="div-mod3">
+        <h2>modalidades:</h2>
+        <ul id="mod">
+          <li onclick="clickKrav()">
+            <a href="kravmaga.html" target="tframe">
+              <div>
+                <img class="preto" src="imagens/krav maga.png" alt="Krav Maga Logo">
+                <img class="branco" src="imagens/krav maga branco.png" alt="Krav Maga Branco">
+              </div>
+              <div>
+                <h2>Krav Maga</h2>
+              </div>
+            </a>
+          <li onclick="clickKung()">
+            <a href="kungfu.html" target="tframe">
+              <div>
+                <img class="preto" src="imagens/kung fu.png" alt="Kung Fu Logo">
+                <img class="branco" src="imagens/kung fu branco.png" alt="Kung Fu Branco">
+              </div>
+              <div>
+                <h2>Kung Fu</h2>
+              </div>
+            </a>
+          <li onclick="clickMuay()">
+            <a href="muaythai.html" target="tframe">
+              <div>
+                <img class="preto" src="imagens/muay thai.png" alt="Muay Thai Logo">
+                <img class="branco" src="imagens/muay thai branco.png" alt="Muay Thai Branco">
+              </div>
+              <div>
+                <h2>Muay Thai</h2>
+              </div>
+            </a>
+        </ul>
+      </div>
       <hr>
       <div class="textoluta" id="textokravmaga">
         <p>Krav-Maga, que significa “combate contato”, é uma disciplina combate corpo a corpo, que foi desenvolvido no 19 º século por imigrantes judeus para (que era então) Palestina. A disciplina está globalmente associada ao Israel moderno, conforme refletido na mídia e em livros publicados de forma privada. Nos últimos anos, o Krav-Maga tem crescido em popularidade, tendência que pode ser atribuída ao aumento global das ações terroristas contra civis, como o tiroteio no Charlie Hebdo em 2015, e à reputação do Krav -Maga como o método oficial de combate corpo a corpo das Forças de Defesa de Israel (IDF). Apesar desse crescimento em popularidade, poucas pesquisas acadêmicas foram realizadas para examinar as origens históricas e a evolução do Krav-Maga, nem como elas estão ligadas à herança cultural do povo judeu. Ambos os projetos intelectuais são importantes para avaliar o caso da inclusão do Krav-Maga no âmbito do patrimônio cultural imaterial de Israel. É interessante notar que alguns trabalhos recentes foi realizado sobre a ligação entre o surgimento de Krav-Maga e as relações violentas entre residentes judeus e árabes da Palestina no final dos anos 19 º século. No entanto, este trabalho não examina as dimensões culturais e ideológicas do desenvolvimento do Krav-Maga.</p>
@@ -156,6 +194,8 @@
   <footer>
     <div class="delimitador">
       <p>&copy;  MarcialArts - Todos os direitos reservados - 2023</p>
+      <span id="grande"><p>Visualize em uma tela de celular para uma experiência diferenciada!</p></span>
+      <span id="pequeno"><p>Visualize em uma tela de computador para uma experiência mais ampla</p></span>
     </div>
   </footer>
   <script src="programacao.js"></script>

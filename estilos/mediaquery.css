@@ -78,7 +78,6 @@
 
   #contato {
     position: relative;
-    /*background-color: red;*/
     display: flex;
     width: 90%;
     padding: 30px 0px 0px 0px;
@@ -89,7 +88,6 @@
     position: absolute;
     top: 0%;
     text-align: left;
-    /*background-color: yellow;*/
     width: 100%;
     padding: 10px 0px;
   }
@@ -104,7 +102,6 @@
   }
 
   #saiba-mais {
-    /*background-color: green;*/
     margin-top: 50px;
     height: 430px;
   }
@@ -115,12 +112,7 @@
   }
 
   #saiba-mais ul {
-    /*background-color: white;*/
     float: left;
-  }
-
-  #endereco {
-    /*background-color: blue;*/
   }
 
   #redes-sociais {
@@ -132,6 +124,196 @@
     margin-right: 15px;
   }
 
+  #telas-grandes2 {
+    display: none;
+  }
+
+  #div-mod3 {
+    display: none;
+  }
+
+  #pequeno {
+    display: none;
+  }
+
+  #grande {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 992px) {
 
+  #burguer {
+    display: none;
+  }
+
+  #items {
+    display: block;
+    width: 50%;
+  }
+
+  .delimitador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .delimitador > h1 {
+    width: 50%;
+    text-align: left;
+  }
+
+  header {
+    padding: 15px 0px;
+    margin-bottom: 10px;
+  }
+
+  header ul {
+    display: flex;
+    float: right;
+  }
+
+  header li {
+    margin-left: 15px;
+  }
+
+  header a {
+    font-size: 1.3em;
+  }
+
+  header a:hover {
+    background-color: transparent;
+  }
+
+  main iframe {
+    width: 55%;
+    height: 350px;
+  }
+
+  #celular {
+    display: none;
+  }
+
+  #telas-grandes {
+    display: none;
+  }
+
+  #telas-grandes2 {
+    display: block;
+  }
+
+  #div-mod {
+    display: none;
+  }
+
+  #div-mod2 {
+    display: none;
+  }
+
+  #div-mod3 {
+    display: block;
+    width: 40%;
+    height: 350px;
+  }
+
+  #div-mod3 ul {
+    padding: 0px 0px;
+  }
+
+  #div-mod3 > h2 {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 2em;
+  }
+
+  #div-mod3 li img {
+    height: 40px;
+  }
+
+  #div-mod3 li {
+    margin-right: 0px;
+    width: 100px;
+    height: 100%;
+    margin-right: 5px;
+    padding: 20px 0px;
+  }
+
+  #div-mod3 > ul {
+    float: left;
+  }
+
+  #div-mod3 li:hover h2 {
+    font-size: .8em;
+  }
+
+  #contato {
+    position: relative;
+    display: flex;
+  }
+
+  #contato > h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #formulario {
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 30%;
+  }
+
+  #formulario > h2 {
+    text-align: left;
+  }
+
+  #saiba-mais {
+    display: flex;
+    width: 60%;
+    margin-right: 0px;
+  }
+
+  #redes-sociais {
+    display: block;
+    width: 50%;
+    text-align: left;
+  }
+
+  #redes-sociais ul {
+    float: left;
+  }
+
+  #endereco {
+    display: block;
+    margin: 0px;
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  #modalidades > hr {
+    margin: 50px auto 0px auto;
+    width: 80vw;
+  }
+
+  .textoluta {
+    width: 80vw;
+  }
+
+  #pequeno {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #grande {
+    display: block;
+    background-color: rgb(0, 27, 149);
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
 }
